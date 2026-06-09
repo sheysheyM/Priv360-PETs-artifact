@@ -10,6 +10,8 @@ This repository is prepared for the **PoPETs Artifact Available** badge. It prov
 
 This submission is **not** intended to claim full result reproduction. The raw datasets, generated paper outputs, and complete reproduction environment are not included in this repository.
 
+Priv360 protects VR users from re-identification by injecting noise into the head movement data transmitted during 360° video streaming. A lightweight prediction step reconstructs a usable signal from the noise, maintaining streaming quality without exposing the true head pose. This artifact provides the source code for evaluating the privacy–utility tradeoff across multiple attacker models and noise levels.
+
 ## What is included
 
 The artifact contains the code path corresponding to the paper's attack-and-defense evaluation:
