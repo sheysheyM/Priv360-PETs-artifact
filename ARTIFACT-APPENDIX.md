@@ -14,7 +14,6 @@ We do **not** request the **Artifact Functional** or **Artifact Reproduced** bad
 
 ## Artifact availability
 
-This artifact is intended to be hosted as a public repository at a stable location, such as GitHub, GitLab, Zenodo, or another accepted artifact hosting service.
 
 The repository includes:
 
