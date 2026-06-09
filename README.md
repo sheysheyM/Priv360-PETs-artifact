@@ -68,11 +68,7 @@ python priv360/evaluate_attack_models_on_clean_noisy_prediction.py --dataset ds1
 
 More run commands and the CSV output format are described in [`RUN_AND_OUTPUT.md`](RUN_AND_OUTPUT.md).
 
-## Badge scope
 
-This repository is submitted for the **Artifact Available** badge. It includes source code, documentation, a license, and a paper-aligned artifact appendix.
-
-This repository does **not** request the **Artifact Functional** or **Artifact Reproduced** badges, because the full raw datasets, generated outputs, and complete reproduction environment are not included.
 
 ## Citation & Acknowledgments
 
