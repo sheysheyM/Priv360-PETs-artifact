@@ -12,8 +12,28 @@ We request the **Artifact Available** badge.
 
 We do **not** request the **Artifact Functional** or **Artifact Reproduced** badges for this submission.
 
-## Artifact availability
+## Description
 
+This artifact contains the source code for the **Priv360** anonymization method, a client-side privacy protection system for 360-degree video streaming. It is directly relevant to the paper in that it implements all core attack models (LSTM, Transformer, Random Forest) and defense scenarios (clean baseline, noise-only defense, and the prediction-assisted Priv360 defense) evaluated in the paper. The artifact enables researchers to understand the paper's approach, inspect the defense logic, and run the evaluation pipeline on their own datasets.
+
+## Security/Privacy Issues and Ethical Concerns
+
+This artifact poses no security or privacy risks to reviewers. It contains only Python source code for research purposes; it does not collect, transmit, or process any personal data during review. The research topic concerns *protecting* user privacy in 360-degree video streaming, and the attack models included are academic adversarial models intended to evaluate the strength of the defense not to facilitate real-world attacks. No ethical approval was required beyond the institution's standard research guidelines.
+
+## Environment
+
+The artifact requires a standard Python 3 environment. All dependencies are listed in `requirements.txt` and can be installed with:
+
+```bash
+pip install -r requirements.txt
+```
+
+Running the full evaluation pipeline does require access to the datasets used in the paper, which are not included in this repository.
+## Accessibility
+
+The artifact is publicly available on GitHub at a permanent URL. It requires no login, license agreement, or institutional affiliation to access. The README provides a paper-to-code map so that readers unfamiliar with the codebase can quickly locate the implementation of each paper component.
+
+## Artifact availability
 
 The repository includes:
 
@@ -31,7 +51,7 @@ This artifact provides the paper-aligned source code and documentation for:
 - prediction-assisted Priv360 defense;
 - LSTM, Transformer, and Random Forest attacker models.
 
-The artifact is intentionally focused on availability and reuse. It does not include raw datasets, generated outputs, plotting scripts, Docker files, or unrelated QoE-only scripts.
+The artifact is intentionally focused on availability and reuse. It does not include raw datasets, generated outputs, plotting scripts, Docker files.
 
 ## Main files
 
